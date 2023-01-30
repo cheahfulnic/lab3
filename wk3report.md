@@ -4,7 +4,7 @@
 For the first part of this week's lab report, I'm creating a web server called StringServer that supports the path and behavior described on this [link](https://ucsd-cse15l-w23.github.io/week/week3/#part-1).
 
 ![image](https://github.com/cheahfulnic/lab3/blob/main/wk3-ss/week3-13.png?raw=true)
-*Code for StringServer that takes an argument in main, creates a URLHandler and then uses Server.java to start the web server.*
+*Code for StringServer.java that takes an argument in main, creates a URLHandler and then uses Server.java to start the web server.*
 
 ![image](https://github.com/cheahfulnic/lab3/blob/main/wk3-ss/week3-14.png?raw=true)
 *Code for Server.java which was used in week 2's lab. More information can be found on this [link](https://ucsd-cse15l-w23.github.io/week/week2/#the-urlhandler-interface).*
