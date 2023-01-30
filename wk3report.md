@@ -23,7 +23,6 @@ For the first part of this week's lab report, I'm creating a web server called S
 * Since the port number didn't change, the second instance starts by calling the handleRequest method. The getQuery method is also called after the getPath method because the path name didn't change.
 * However, the query value for this particular example differs from the first image. Instead of "My first message!", the String "then the second!" is now part of the query value. And because the '/add-message' path was used and a prior String was already printed, the String following the '=' sign is now printed on the next line.
 
-
 ## Part 2: Bugs and Troubleshooting
 For the second part of this week's lab report, I'll be choosing and troubleshooting a bug from week 3's lab which can be found on this [link](https://ucsd-cse15l-w23.github.io/week/week3/#symptoms-and-failure-inducing-inputs). The particular bug I'll be fixing is the averageWithoutLowest method, which returns the average of all numbers in a given array excluding the smallest number, in the ArrayExamples.java file.
 ```
@@ -80,7 +79,6 @@ static double averageWithoutLowest(double[] arr) {
 ```
 *The fixed code (after code change)*
 * The code change sums up all the numbers in the array and then deducts the smallest number before averaging the result. This fixes the bug as the code prior to the change considers multiple instances of the smallest number and doesn't include all of them in the sum (which is incorrect as only one number should be excluded, i.e. one instance of the smallest number).
-
 
 ## Part 3: Reflection
 In week 2 and 3's labs, I learnt how to: 
