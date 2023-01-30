@@ -2,14 +2,14 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+    // The one bit of state on the server: a String that will be manipulated by
+    // requests.
     String message = "";
 
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) { //returns 'Number: 0' when there is no path
+        if (url.getPath().equals("/")) { //returns message when there is no path.
             return message;
-        } else { //returns '404 Not Found' if path is not / or /add-message
+        } else { //returns '404 Not Found' if path is not / or /add-message.
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");

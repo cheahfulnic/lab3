@@ -35,4 +35,10 @@ public class ArrayTests {
     assertEquals(5.0/3, ArrayExamples.averageWithoutLowest(input1), 0.001);
   }
 
+  @Test
+  public void testAverageWithoutLowest2() {
+    double[] input2 = { 1 , 1 , 0 , 0 };
+    assertEquals(2.0/3, ArrayExamples.averageWithoutLowest(input2), 0.001);
+  }
+
 }
