@@ -21,7 +21,7 @@ For the first part of this week's lab report, I'm creating a web server called S
 ![image](https://github.com/cheahfulnic/lab3/blob/main/wk3-ss/week3-16.png?raw=true)
 *Second instance of using /add-message*
 * Since the port number didn't change, the second instance starts by calling the handleRequest method. The getQuery method is also called after the getPath method because the path name didn't change.
-* However, the query value for this particular example differs from the first image. Instead of "My first message!", the String "then the second!" is now part of the query value. And because the '/add-message' path was used and a prior String was already printed, the String following the '=' sign is now printed on the next line.
+* However, the query value for this particular example differs from the first image. Instead of "My first message!", the String "then my second!" is now part of the query value. And because the '/add-message' path was used and a prior String was already printed, the String following the '=' sign is now printed on the next line.
 
 ## Part 2: Bugs and Troubleshooting
 For the second part of this week's lab report, I'll be choosing and troubleshooting a bug from week 3's lab which can be found on this [link](https://ucsd-cse15l-w23.github.io/week/week3/#symptoms-and-failure-inducing-inputs). The particular bug I'll be fixing is the averageWithoutLowest method, which returns the average of all numbers in a given array excluding the smallest number, in the ArrayExamples.java file.
